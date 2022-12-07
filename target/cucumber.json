@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "As LUMA application user must do login with valid credential",
+        "description": "",
+        "id": "login-functionality-test;as-luma-application-user-must-do-login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1700827500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open any browser",
+            "match": {
+              "location": "StefDef.open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3072485800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to application URL",
+            "match": {
+              "location": "StefDef.go_to_application_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021021600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click signin button",
+            "match": {
+              "location": "StefDef.click_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133141800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "put email",
+            "match": {
+              "location": "StefDef.put_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78389200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "put password",
+            "match": {
+              "location": "StefDef.put_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1502722500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click second signin button",
+            "match": {
+              "location": "StefDef.click_second_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47777800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate login was succesful",
+            "match": {
+              "location": "StefDef.validate_login_was_succesful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality test",
+    "description": "",
+    "id": "login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Luma%20Login.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
